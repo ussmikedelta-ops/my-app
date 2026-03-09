@@ -1,0 +1,57 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<LinearLayout
+android:orientation="vertical"
+android:padding="20dp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<ImageView
+android:layout_width="200dp"
+android:layout_height="100dp"
+android:src="@drawable/logo"/>
+
+<EditText android:id="@+id/customer" android:hint="Customer Name"
+android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<EditText android:id="@+id/contact" android:hint="Contact Person"
+android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<EditText android:id="@+id/address" android:hint="Address"
+android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<EditText android:id="@+id/phone" android:hint="Phone"
+android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<EditText android:id="@+id/discom" android:hint="DISCOM"
+android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<EditText android:id="@+id/kno" android:hint="K.No / Customer No"
+android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<EditText android:id="@+id/load" android:hint="Sanctioned Load"
+android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<EditText android:id="@+id/roofArea" android:hint="Roof Area (sq ft)"
+android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<EditText android:id="@+id/moduleType" android:hint="Module Type"
+android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+<Button
+android:id="@+id/addPhoto"
+android:text="Add Photos (Max 10)"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"/>
+
+<Button
+android:id="@+id/generatePdf"
+android:text="Generate PDF Report"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</ScrollView>
